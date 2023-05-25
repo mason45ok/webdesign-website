@@ -18,18 +18,18 @@ var items = [
     "漢堡王",
     "甘泉魚麵",
     "福勝亭",
-    "韓華園",
     "八方雲集",
     "元日本豚骨拉麵",
     "孟紀椒麻雞大王(師大店)",
     "陳敏小吃",
-    "牛老大"
+    "牛老大",
+    "食粥致神仙"
   ];
   
   function randomSelection() {
     var resultElement = document.getElementById("result");
     var randomIndex = Math.floor(Math.random() * items.length);
     var selectedItem = items[randomIndex];
-    resultElement.textContent = "結果：" + selectedItem;
+    resultElement.textContent = "結果：" + selectedItem+" 可上滑查看地圖!";
   }
 

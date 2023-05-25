@@ -19,6 +19,6 @@ var items = [
     var resultElement = document.getElementById("result");
     var randomIndex = Math.floor(Math.random() * items.length);
     var selectedItem = items[randomIndex];
-    resultElement.textContent = "結果：" + selectedItem;
+    resultElement.textContent = "結果：" + selectedItem+" 可上滑查看地圖!";
   }
 

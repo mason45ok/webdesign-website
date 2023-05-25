@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <link rel="shortcut icon" href="favicon_io/favicon.ico"/>
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -101,9 +102,9 @@
           </div>
           <div class="detail-box">
             <p>
-              師大早餐店的選擇比起午晚餐而言較少，我們整理後可以知道依據中西式分類後的師大早餐店有以下幾種選擇:
+              師大晚餐店的選擇和中午類似，有以下幾種選擇:
             </p>
-            <table style="border:3px #000000 solid;" cellpadding="10" border='1' align="center">
+            <!-- <table style="border:3px #000000 solid;" cellpadding="10" border='1' align="center">
                 <tr>
                   <th>
                     中式
@@ -120,9 +121,32 @@
                     師大美而美
                   </th>
                 </tr>
-            </table>
+            </table> -->
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vhcWgA_SHeAfvOa5Oo6p2JZFSWZzWIo&ehbc=2E312F" width="900" height="720" align="center"></iframe>
            <br>
           </br>
+          <title>隨機篩選器</title>
+          <style>
+            .container {
+              text-align: center;
+              padding: 20px;
+            }
+
+            .result {
+              font-size: 24px;
+              font-weight: bold;
+              margin-bottom: 20px;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="container">
+            <h1>選擇困難解決器</h1>
+            <h5>註:本篩選器不含餐酒館</h5>
+            <button onclick="randomSelection()">點擊開始</button>
+            <div class="result" id="result"></div>
+          </div>
+          <script src="js/晚餐.js"></script>
             <a href="index.html">
               <i class="fa fa-arrow-right" aria-hidden="true"></i>
             </a>

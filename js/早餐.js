@@ -12,7 +12,8 @@ var items = [
     "桔梗三明治",
     "新鮮豆漿",
     "活力飯糰",
-    "男子漢早餐店"
+    "男子漢早餐店",
+    "蛋幾ㄌㄟ"
   ];
   
   function randomSelection() {
